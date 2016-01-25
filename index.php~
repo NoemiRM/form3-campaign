@@ -87,7 +87,7 @@
 <div class="form-group"><label for="url_who">what is your web?</label>
 <input type="text" name="url_who"  id="url_who"  data-mandatory="" data-valid="Url" class="form-control" /></div>
 
-<div class="g-recaptcha" data-sitekey="6LcqzgQTAAAAAHnoeTKy_LuNljmrn0EgDJFSSplg"></div>
+
 
 <button type="submit">Submit</button>
 

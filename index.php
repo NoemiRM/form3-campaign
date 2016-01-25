@@ -1,5 +1,8 @@
+<html>
+<head></head>
+<body>
 
-        <!-- -------------------------------------------------------- -->
+<!-- -------------------------------------------------------- -->
 <!-- NOTE: Please add following <META> element to your page <HEAD> -->
 <!-- If necessary, please modify the charset parameter to specify the  -->
 <!-- character set of your HTML page.  -->
@@ -8,7 +11,11 @@
 
 <div id="afgcampaing-error" class="alert alert-danger"></div>
 
-<script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+window.typeFormRag = 1;
+window.afgs3settings = {"url":"\/\/afg-rag-repository.s3.amazonaws.com","policy":"eyJleHBpcmF0aW9uIjoiMjk5Ni0wMS0wMVQwMDowMDowMFoiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJhZmctcmFnLXJlcG9zaXRvcnkifSx7ImFjbCI6InB1YmxpYy1yZWFkIn0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCIiXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLHsic3VjY2Vzc19hY3Rpb25fc3RhdHVzIjoiMjAxIn0seyJ4LWFtei1jcmVkZW50aWFsIjoiQUtJQUo3NjNUUVBQUFgyWVFETVFcLzI5OTYwMTAxXC91cy1lYXN0LTFcL3MzXC9hd3M0X3JlcXVlc3QifSx7IngtYW16LWFsZ29yaXRobSI6IkFXUzQtSE1BQy1TSEEyNTYifSx7IngtYW16LWRhdGUiOiIyOTk2MDEwMVQwMDAwMDBaIn1dfQ==","credential":"AKIAJ763TQPPPX2YQDMQ\/29960101\/us-east-1\/s3\/aws4_request","algorithm":"AWS4-HMAC-SHA256","date":"29960101T000000Z","signature":"f7c028f9c39c9bfaf7fcf75f59520ef9d3b9af438529e4eb8ec19ad48d72d8de","key":""};
+</script>
+
 <link href="https://fbladev2.allforgood.org/static/css/pickaday.min.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="https://fbladev2.allforgood.org/static/js/pickmoment.min.js"></script>
 <script type="text/javascript" src="https://fbladev2.allforgood.org/static/js/afgvalidate.min.js"></script>
@@ -87,10 +94,10 @@
 <div class="form-group"><label for="url_who">what is your web?</label>
 <input type="text" name="url_who"  id="url_who"  data-mandatory="" data-valid="Url" class="form-control" /></div>
 
-
-
 <button type="submit">Submit</button>
 
 </form>
 
-<div id="afgCampaignThanks" style="display:none">Congratulation</div>    
+<div id="afgCampaignThanks" style="display:none">Congratulation</div>
+</body>
+</html>
